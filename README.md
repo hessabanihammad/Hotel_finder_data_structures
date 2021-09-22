@@ -2,7 +2,7 @@
 
 In this project, I developed a hotel finder application that helps the user search for a hotel in a specific city. The hotels are identified by the combination of hotel name and city name. The program starts by invoking the application for the terminal in the following format:
 
-./hotelFinder -f <filename> 
+./hotelFinder f filename
 
 The user specifies the file to implement the queries on. The file is opened, and the entries are read into the Hash Map. The Key and Values are inserted into the hash map. Then the user can choose to perform any of the following queries: find k, add s ,delete k, dump f, allinCity c, quit.
 
